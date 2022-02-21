@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("http://cdn.mhpbooks.com/uploads/2014/12/shutterstock_149463557.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
