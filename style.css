@@ -14,7 +14,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
     border: 5px solid #14B8A6;
     border-radius: 25px;
     padding: 50px;
@@ -36,13 +36,14 @@ body {
 
 .modal-box{
     height: 10vh;
-    width: 30vw;
+    width: 20%;
     background-color:#14B8A6;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     border-radius: 25px;
+
    
 }
 
