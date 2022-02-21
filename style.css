@@ -33,3 +33,26 @@ button:hover {
     background-color: #134E4A;
 }
 
+.modal-box{
+    height: 10vh;
+    width: 30vw;
+    background-color:#14B8A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+   
+}
+
+.close-modal {
+    padding: 0px;
+    position: relative;
+    top: -35%;
+    left: 10%;
+    color: red;
+}
+
+.close-modal:hover{
+    cursor: pointer;
+}
