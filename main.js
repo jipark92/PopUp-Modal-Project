@@ -14,10 +14,18 @@ openModal.addEventListener('click', () => {
     closeModal.setAttribute('class', 'close-modal');
     modalBox.appendChild(closeModal);
     closeModal.textContent = "X";
-})
 
-const closeBtn = document.querySelector('.close-modal');
+    const closeBtn = document.querySelector('.close-modal');
 
-closeBtn.addEventListener('click',()=>{
     
+    closeBtn.addEventListener('click', ()=>{
+        modalBox.classList.remove('modal-box');
+        modalBox.textContent = "";
+    })
+
+    console.log(closeBtn);
 })
+
+
+
+
