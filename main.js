@@ -6,7 +6,7 @@ openModal.addEventListener('click', () => {
     let modalBox = document.createElement('div');
     modalBox.setAttribute("class", "modal-box")
     container.appendChild(modalBox);
-    modalBox.textContent = "THIS IS MODAL BOX.";
+    modalBox.textContent = "THIS IS A MODAL BOX.";
    
     
 
