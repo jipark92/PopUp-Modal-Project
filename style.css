@@ -47,13 +47,13 @@ body {
 }
 
 .close-modal {
-    padding: 0px;
+    height: 100px;
     position: relative;
-    top: -35%;
     left: 10%;
     color: red;
     background-color:#14B8A6;
     border: none;
+    font-weight: bold;
 }
 
 .close-modal:hover{
