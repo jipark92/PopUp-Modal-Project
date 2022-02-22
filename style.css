@@ -35,8 +35,7 @@ body {
 }
 
 .modal-box{
-    height: 10vh;
-    width: 20%;
+    padding: 50px;
     background-color:#14B8A6;
     display: flex;
     justify-content: center;
